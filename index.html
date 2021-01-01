@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css ">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -26,6 +27,67 @@
             </div>
         </div>
     </header>
+    <section class="head">
+        <!-- <div class="top-slider">
+            <div class="swiper-slide">
+                <h3 class="swiper-slide__title">
+                    МЫСЛИ
+                    ГЛОБАЛЬНО
+                </h3>
+            </div>
+            <div class="top-slider__item">
+                <h3 class="top-slider__title">
+                    МЫСЛИ
+                    ГЛОБАЛЬНО
+                </h3>
+            </div>
+            <div class="top-slider__item">
+                <h3 class="top-slider__title">
+                    МЫСЛИ
+                    ГЛОБАЛЬНО
+                </h3>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div> -->
+        <div class="top-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <h3 class="swiper-slide__title">
+                        МЫСЛИ
+                        ГЛОБАЛЬНО
+                    </h3>
+                </div>
+                <div class="swiper-slide">
+                    <h3 class="swiper-slide__title">
+                        МЫСЛИ
+                        ГЛОБАЛЬНО
+                    </h3>
+                </div>
+                <div class="swiper-slide">
+                    <h3 class="swiper-slide__title">
+                        МЫСЛИ
+                        ГЛОБАЛЬНО
+                    </h3>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.head', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
 </body>
 
 </html>
